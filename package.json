@@ -1,0 +1,28 @@
+{
+  "name": "ingenico-epayments",
+  "version": "1.0.0",
+  "description": "This service is designed to take form data and prepare it to be sent to ingenicos Ogone e-Commerce API. Ingenicos documentation about working with this end point can be found at https://payment-services.ingenico.com/int/en/ogone/support/guides/integration%20guides/e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterNMcArthur/ingenico-epayments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterNMcArthur/ingenico-epayments/issues"
+  },
+  "homepage": "https://github.com/PeterNMcArthur/ingenico-epayments#readme"
+}
